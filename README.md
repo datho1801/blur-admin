@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ngx-admin [<img src="https://i.imgur.com/oMcxwZ0.png" alt="Eva Design System" height="20px" />](https://eva.design?utm_campaign=eva_design%20-%20home%20-%20ngx_admin%20github%20readme&utm_source=ngx_admin&utm_medium=referral&utm_content=top_status_tile) [![Build Status](https://travis-ci.org/akveo/ngx-admin.svg?branch=master)](https://travis-ci.org/akveo/ngx-admin)
 
 [Who uses ngx-admin?](https://github.com/akveo/ngx-admin/issues/1645)| [Documentation](https://akveo.github.io/ngx-admin?utm_campaign=ngx_admin%20-%20home%20-%20ngx_admin%20github%20readme&utm_source=ngx_admin&utm_medium=referral&utm_content=github_readme_documentation_link) | [Installation Guidelines](https://akveo.github.io/ngx-admin/docs/getting-started/what-is-ngxadmin?utm_campaign=ngx_admin%20-%20home%20-%20ngx_admin%20github%20readme&utm_source=ngx_admin&utm_medium=referral&utm_content=github_readme_installation_guidelines)
@@ -90,3 +91,22 @@ Visit [our homepage](https://www.akveo.com?utm_campaign=services%20-%20akveo%20w
 ### From Developers
 Made with :heart: by [Akveo team](https://www.akveo.com?utm_campaign=services%20-%20akveo%20website%20-%20ngx_admin%20github%20readme&utm_source=ngx_admin&utm_medium=referral&utm_content=from_developers_made_by). Follow us on [Twitter](https://twitter.com/akveo_inc) to get the latest news first!
 We're always happy to receive your feedback!
+=======
+# Blur Admin HTML template
+
+Admin template made with ♥ by Akveo team.
+
+We put a lot of efforts to bring together latest and the most trending web design approaches, while creating this template.
+Every color, character or image was carefully selected by our team to provide the best experience possible.
+We're very proud of it and like it very much. We also hope that you will enjoy it as well.
+
+It's just a first version, but we will continue development of this template to create not just another bootstrap customization, but the whole HTML framework that can be applied in a lot of places.
+
+## Installlation
+
+To build the template from scratch you will be required to have following tools
+* Download and install nodejs [https://nodejs.org](https://nodejs.org)
+* Open the console inside of extracted folder and run `npm install` to fetch all dependencies
+* Run `gulp init` to build sources
+* That's it! Go to `release\` folder in check out your freshly made compiled files!
+>>>>>>> Create README.md
