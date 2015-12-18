@@ -22,6 +22,7 @@
           '/charts/amCharts': 'amCharts',
           '/charts/chartJs': 'Chart.js',
           '/charts/chartist': 'Chartist.js',
+          '/charts/morris': 'Morris',
           '/grid': 'Grid',
           '/icons': 'Icons',
           '/login': 'Authentication',
