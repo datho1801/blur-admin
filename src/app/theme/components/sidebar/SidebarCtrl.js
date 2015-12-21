@@ -94,12 +94,8 @@
             root: '#/notifications'
           },
           {
-            title: 'Tree View',
-            root: '#/tree'
-          },
-          {
-            title: 'Sliders',
-            root: '#/slider'
+            title: 'Tabs and Accordions',
+            root: '#/tabs'
           }
         ]
       },
@@ -144,23 +140,6 @@
         title: '404 Page',
         icon: 'ion-document',
         root: '404.html'
-      },
-      {
-        title: 'Menu Level 1',
-        icon : 'ion-ios-more',
-        subMenu: [
-          {
-            title : 'Menu Level 1.1'
-          },
-          {
-            title : 'Menu Level 1.2',
-            subMenu: [
-              {
-                title : 'Menu Level 1.2.1'
-              }
-            ]
-          }
-        ]
       }
     ];
 
