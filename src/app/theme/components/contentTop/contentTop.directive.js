@@ -31,6 +31,7 @@
           '/modals': 'Modals',
           '/profile': 'User Profile',
           '/tables': 'Tables',
+          '/tree': 'Tree View',
           '/typography': 'Typography',
           '/form-layouts': 'Form Layouts',
           '/form-inputs': 'Form Inputs',
