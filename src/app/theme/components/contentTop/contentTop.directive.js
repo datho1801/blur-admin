@@ -40,7 +40,8 @@
           '/maps/gmap': 'Google Map',
           '/maps/leaflet': 'Leaflet Map',
           '/maps/line': 'Line Map',
-          '/maps/bubble': 'Bubble Map'
+          '/maps/bubble': 'Bubble Map',
+          '/panels': 'Panels'
         };
 
         $scope.$watch(function () {
