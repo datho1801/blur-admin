@@ -27,7 +27,7 @@
           '/icons': 'Icons',
           '/login': 'Authentication',
           '/maps': 'Maps',
-          '/mail': 'Mail',
+          '/mail': 'Mail Box',
           '/modals': 'Modals',
           '/profile': 'User Profile',
           '/tables': 'Tables',
