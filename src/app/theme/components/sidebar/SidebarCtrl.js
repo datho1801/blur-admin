@@ -106,7 +106,7 @@
       {
         title: 'Mail',
         icon: 'ion-ios-email-outline',
-        root: '#/mail'
+        root: '#/mail/inbox'
       },
       {
         title: 'Maps',
