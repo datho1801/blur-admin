@@ -22,10 +22,12 @@
     'BlurAdmin.pages.panels',
     'BlurAdmin.pages.profile',
     'BlurAdmin.pages.progressBars',
+    'BlurAdmin.pages.slider',
     'BlurAdmin.pages.tables',
+    'BlurAdmin.pages.tree',
     'BlurAdmin.pages.tabs',
     'BlurAdmin.pages.typography',
-    'BlurAdmin.pages.ui',
+    'BlurAdmin.pages.timeline'
   ])
       .config(routeConfig);
 
