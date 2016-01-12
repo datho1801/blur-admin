@@ -24,7 +24,8 @@
     'BlurAdmin.pages.progressBars',
     'BlurAdmin.pages.tables',
     'BlurAdmin.pages.tabs',
-    'BlurAdmin.pages.typography'
+    'BlurAdmin.pages.typography',
+    'BlurAdmin.pages.ui',
   ])
       .config(routeConfig);
 
