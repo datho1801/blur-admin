@@ -110,7 +110,7 @@ a.al-sidebar-list-link {
   &.expanded {
     display: block;
   }
-  li {
+  > li {
     display: block;
     float: none;
     padding: 0;
@@ -129,7 +129,7 @@ a.al-sidebar-list-link {
         color: $success;
       }
     }
-    &.selected {
+    > &.selected:not(.with-sub-menu)  {
       a {
         border: none;
         background-color: $success;
