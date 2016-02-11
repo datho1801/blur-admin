@@ -27,7 +27,6 @@
       $.each($scope.menuItems, function (index, menu) {
         menu.selected = ('#' + $location.$$url).indexOf(menu.root) == 0;
         menu.expanded = menu.selected;
-
         if (menu.subMenu) {
           $.each(menu.subMenu, function (subIndex, subMenu) {
             subMenu.selected = ('#' + $location.$$url).indexOf(subMenu.root) == 0;
@@ -79,20 +78,29 @@
 
     $scope.toggleSubMenu = function ($event, item) {
       var submenu = $($event.currentTarget).next();
-
       if ($scope.$isMenuCollapsed) {
-        if (!item.slideRight) {
-          $timeout(function () {
-            item.slideRight = true;
-            $scope.anySlideRight = true;
-          }, 20);
-        }
         $scope.menuExpand();
+        if (!item.selected) {
+          $timeout(function () {
+            item.expanded = !item.expanded;
+            changeSelectElemTopValue();
+            submenu.slideToggle();
+          });
+        }
       } else {
-        submenu.slideToggle(100);
+        item.expanded = !item.expanded;
         changeSelectElemTopValue();
+        submenu.slideToggle();
       }
+
     };
+
+    function toggleExpandedSubmenu() {
+
+      $timeout(function () {
+
+      }, 200);
+    }
 
     window.onclick = function () {
       $timeout(function () {
