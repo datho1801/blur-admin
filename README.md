@@ -107,6 +107,6 @@ It's just a first version, but we will continue development of this template to 
 To build the template from scratch you will be required to have following tools
 * Download and install nodejs [https://nodejs.org](https://nodejs.org)
 * Open the console inside of extracted folder and run `npm install` to fetch all dependencies
-* Run `gulp init` to build sources
+* Run `gulp` to build sources
 * That's it! Go to `release\` folder in check out your freshly made compiled files!
 >>>>>>> Create README.md
