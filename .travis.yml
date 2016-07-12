@@ -1,16 +1,9 @@
+sudo: false
+
 language: node_js
 
-sudo: false
-dist: trusty
-
 node_js:
-  - '10'
-
-branches:
-  only:
-  - master
-  - starter-kit
-  - demo
+  - "4"
 
 addons:
   apt:
@@ -19,17 +12,13 @@ addons:
     packages:
       - g++-4.8
 
-before_install:
-  - npm i -g npm@latest
-
 install:
-  - travis_retry npm i
+  - npm config set spin false
+  - npm install -g npm@3
+  - npm install -g gulp
+  - npm install -g bower
 
-before_script:
+  - npm install
 
 script:
-  - npm run lint:ci
-  - npm run build:prod
-
-git:
-  depth: 1
+  - gulp build
